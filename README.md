@@ -16,7 +16,7 @@
 ### Adding to your project
 
 ```sh
-git submodule add https://github.com/<owner>/edgetx-lua-stdlib.git edgetx-lua-stdlib
+git submodule add https://github.com/jurgelenas/edgetx-lua-stdlib.git edgetx-lua-stdlib
 ```
 
 ### Installing after cloning

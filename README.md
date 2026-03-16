@@ -11,8 +11,6 @@
 | `edgetx-3.0` | EdgeTX 3.0.x |
 | `nightly` | EdgeTX nightly builds |
 
-Semantic version tags (e.g. `v1.0.0`) are available to pin a specific stdlib version.
-
 ## Usage as a git submodule
 
 ### Adding to your project
@@ -33,10 +31,10 @@ git submodule update --init
 git submodule update --remote edgetx-lua-stdlib
 ```
 
-### Pinning a specific version
+### Pinning a specific commit
 
 ```sh
-cd edgetx-lua-stdlib && git checkout v1.0.0 && cd ..
+cd edgetx-lua-stdlib && git checkout <commit-sha> && cd ..
 git add edgetx-lua-stdlib
 ```
 
